@@ -1,0 +1,113 @@
+*{margin: 0px;
+padding: 0px;}
+
+body{background-image: url("https://newses.cgtn.com/n/BfJEA-BAA-EA/BIcbbIA.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+header{display: flex;
+background-color: #2C2C54;}
+
+nav{display: flex;
+justify-content: left;
+opacity: 0.6;}
+
+.main{display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+.card-header{display: flex;
+	flex-direction: column;
+justify-content: center;}
+.card-body{display: flex;
+flex-direction: column;
+justify-content: center;
+box-shadow: 5px 15px 16px rgba(0,0,0,0.7);
+}
+
+h1{display: flex;
+flex-direction: column;
+justify-content: center;}
+
+h2{display: flex;
+flex-direction: column;
+justify-content: center;}
+
+h5{display: flex;
+flex-direction: column;
+justify-content: center;}
+
+section{display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+margin-left: 15px;
+margin-top: 0px;
+margin-right: 15px;
+margin-bottom: 0px;
+width: 650px;
+color: #154360;}
+
+footer{display: flex;
+flex-direction: column;
+text-align: center;
+background-color: #2C2C54;
+color:#E2C93B;}
+
+@media (min-width: 576px) {
+body{font-size: 21px;}
+header {display: flex;}
+nav{display: flex;
+	flex-direction: row;
+	justify-content: left;}
+.main{display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+.card-text-center{display: flex;
+	flex-direction: column;
+	justify-content: center;}
+.card-header{display: flex;
+	flex-direction: column;
+    justify-content: center;}
+.card-body{display: flex;
+flex-direction: column;
+justify-content: center;
+box-shadow: 5px 15px 16px rgba(0,0,0,0.7);}}
+
+@media (min-width: 768px) {
+body{font-size: 15px;}
+header {display: flex;}
+nav{display: flex;
+	flex-direction: row;
+	justify-content: left;}
+.main{display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+.card-text-center{display: flex;
+	flex-direction: column;
+	justify-content: center;}
+.card-header{display: flex;
+	flex-direction: column;
+    justify-content: center;}
+.card-body{display: flex;
+flex-direction: column;
+justify-content: center;
+box-shadow: 5px 15px 16px rgba(0,0,0,0.7);}}
+
+@media (min-width: 992px) {body{font-size: 19px;}
+header {display: flex;}
+nav{display: flex;
+	flex-direction: row;
+	justify-content: left;}
+img{display: flex;
+	flex-direction: column;}}
+
+@media (min-width: 1200px) {body{font-size: 19px;}
+header {display: flex;}
+nav{display: flex;
+	flex-direction: row;
+	justify-content: left;}
+img{display: flex;
+	flex-direction: column;}}
